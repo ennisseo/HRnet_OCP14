@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem
+}
+
+.main-nav-logo {
+    max-width: 150px;
+}
+
+.main-nav-item {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(147, 173, 24, .25);
+    padding: .7rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.main-nav-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}

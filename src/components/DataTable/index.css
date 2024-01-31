@@ -1,0 +1,49 @@
+.table-container {
+    margin: 0 auto;
+    font-size: 18px;
+    max-width: 70%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    display: block;
+}
+
+.table-container input {
+    margin-bottom: 1rem;
+}
+
+table {
+    border-bottom: 1px solid black;
+}
+
+thead {
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.4);
+}
+
+.sort-icon {
+    margin-left: .5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fa-sort-up,
+.fa-sort-down {
+    color: black;
+}
+
+.pagination {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}

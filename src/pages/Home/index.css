@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    margin: 0;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
